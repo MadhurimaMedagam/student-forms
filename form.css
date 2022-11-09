@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./images/mads.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.main {
+  width: 25rem;
+  margin: 6.25rem auto 0rem auto;
+}
+h2 {
+  text-align: center;
+  padding: 1.25rem;
+  font-family: sans-serif;
+}
+div.register {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 0.6rem;
+  border: 0.06rem solid black;
+  color: #fff;
+}
+form#register {
+  margin: 40px;
+}
+label {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+input#name {
+  width: 18rem;
+  border: 0.06 solid #ddd;
+  outline: 0;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  box-shadow: inset 0.06rem 0.06rem 0.3rem rgb(0, 0, 0, 0.3);
+}
+select#name {
+  width: 18rem;
+  border: 0.06 solid #ddd;
+  outline: 0;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  box-shadow: inset 0.06rem 0.06rem 0.3rem rgb(0, 0, 0, 0.3);
+}
+input#submit {
+  width: 12rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: rgb(13, 13, 13);
+  cursor: pointer;
+  border: 0.06rem solid black;
+  box-shadow: 0.06rem 0.06rem 0.3rem #ddd;
+  color: #fff;
+}
+input#submit:hover {
+  background-color: brown;
+}
+input#iste {
+  width: 18rem;
+  border: 0.06 solid #ddd;
+  outline: 0;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background-color: rgb(166, 235, 235);
+  box-shadow: inset 0.06rem 0.06rem 0.3rem rgb(0, 0, 0, 0.3);
+  height: 2rem;
+}
